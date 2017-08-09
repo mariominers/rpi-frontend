@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+:invalid {
+  box-shadow: none;
+}
+
+:-moz-ui-invalid {
+  box-shadow:none;
+}
+
+:-moz-submit-invalid {
+  box-shadow: none;
+}
+
+// Hide IE clear cross in input fields
+input::-ms-clear {
+    display: none;
+}
